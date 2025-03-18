@@ -26,3 +26,8 @@ def min_sum_subarray(arr, k):
         window_sum += arr[i] - arr[i-k]
         min_sum = min(min_sum, window_sum)
     return  min_sum
+
+# I will add more scenarios where sliding window is useful
+# when I need to do comparatios within element of a subarray
+# so pretty useful in subarrays
+
